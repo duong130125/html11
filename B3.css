@@ -4,8 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.button {
-    border: 1px solid white;
+.item {
+    border: 1px solid rgb(247, 246, 246);
     width: 80px;
     height: 36px;
     border-radius: 10px;
@@ -17,8 +17,8 @@
     align-items: center;
     color: #fff;
 }
-.dad {
-    border: 1px solid rgb(174, 172, 172);
+.hearn {
+    border: 1px solid rgb(165, 186, 70);
     width: 540px;
     height: 700px;
     border-radius: 8px;
@@ -26,25 +26,25 @@
     flex-direction: column;
     padding: 10px;
 }
-.picture{
+.main {
     object-fit: cover;
     width: 500px;
     height: 300px;
     border-radius: 8%;
 }
-.picture1 {
+.main1 {
     margin-top: 15px;
     object-fit: cover;
     width: 50px;
     height: 50px;
     border-radius: 100%;
 }
-.ten {
+.name {
     position: absolute;
-    top: 342px;
+    top: 350px;
     left: 76px;
     font-family: 'Open Sans', sans-serif;
-    font-size:25px;
+    font-size: 15px;
 }
 .square {
     font-weight: bold;
